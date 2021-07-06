@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2A2A2E;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  background-image: linear-gradient(to right, #5F4CC7 , #E00E67);
+  /*border-bottom: 5px solid #0088CC;*/
+  box-shadow: 0 0 10px 10px #00000044;
+  font-family: 'Staatliches', cursive;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.topnav a:hover {
+  background-color: #FFFFFF11;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #FFFFFF44;
+  color: white;
+}
+
+.main {
+  margin-top: 60px; /* Add a top margin to avoid content overlay */
+}
+
+#widget {
+    color: #9f9f9f;
+    background-color: #2A2A2E;
+    margin: 15px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px #00000044;
+}
