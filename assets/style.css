@@ -1,19 +1,18 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #2A2A2E;
+  background-color: #2a2a2e;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #2A2A2E;
   background-image: linear-gradient(to right, #5F4CC7 , #E00E67);
-  /*border-bottom: 5px solid #0088CC;*/
-  box-shadow: 0 0 10px 10px #00000044;
+  box-shadow: 0 0 3px 3px #00000044;
   font-family: 'Staatliches', cursive;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .topnav a {
@@ -38,7 +37,7 @@ body {
 }
 
 .main {
-  margin-top: 60px; /* Add a top margin to avoid content overlay */
+  margin-top: 60px;
 }
 
 #widget {
@@ -47,5 +46,6 @@ body {
     margin: 15px;
     padding: 5px 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px 10px #00000044;
+    box-shadow: 0 0 3px 3px #00000044;
+    font-family: 'Fira Sans', sans-serif;
 }
