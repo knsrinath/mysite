@@ -10,7 +10,7 @@ body {
   background-image: linear-gradient(to right, #5F4CC7 , #E00E67);
   box-shadow: 0 0 3px 3px #00000044;
   font-family: 'Staatliches', cursive;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
 }
@@ -34,10 +34,6 @@ body {
 .topnav a.active {
   background-color: #FFFFFF44;
   color: white;
-}
-
-.main {
-  margin-top: 60px;
 }
 
 #widget {
